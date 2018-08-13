@@ -720,6 +720,17 @@
   <script type="text/javascript">
     window.__OMEGA = window.__OMEGA || { };
     var apiEndpoint = "http://kl.lazaro.in/omega";
+    var baseURL = "";
+    if ( __envProduction ) {
+      if ( document.getElementsByTagName( "base" ).length ) {
+        baseURL = document.getElementsByTagName( "base" )[ 0 ].getAttribute( "href" ).replace( /\//g, "" );
+      }
+      else {
+        var urlParts = location.pathname.match( /[^/?]+/ );
+        if ( urlParts )
+          baseURL = urlParts[ 0 ]
+      }
+    }
   </script>
   <script src="js/modules/set-cookie.js" type="text/javascript"></script>
   <script src="js/modules/time-and-date.js" type="text/javascript"></script>

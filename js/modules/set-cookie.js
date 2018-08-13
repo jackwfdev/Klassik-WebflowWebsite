@@ -12,9 +12,9 @@
 function setCookie ( name, data, duration ) {
 
 	var url = location.origin.replace( /\/+$/g, "" );
-	// if ( __envProduction ) {
-	// 	url += "/" + document.getElementsByTagName( "base" )[ 0 ].getAttribute( "href" ).replace( /\//g, "" );
-	// }
+	if ( __envProduction ) {
+		url += "/" + baseURL;
+	}
 	url += "/inc/set-cookie-async.php";
 	var queryString = "?" + "_cookie=" + encodeURIComponent( name );
 	queryString += "&_duration=" + encodeURIComponent( duration );
