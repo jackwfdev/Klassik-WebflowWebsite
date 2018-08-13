@@ -103,7 +103,7 @@
                 <div data-ix="navbar-line-initial" class="line-effect"></div>
               </div>
             </a>
-            <a href="#price" data-ix="navigation-line-on-hover" class="navigation-link w-inline-block">
+            <a href="pricing" target="_blank" data-ix="navigation-line-on-hover" class="navigation-link w-inline-block">
               <div class="nav-line-wrapper">
                 <div class="text-block">Get Detailed Price</div>
                 <div data-ix="navbar-line-initial" class="line-effect"></div>
@@ -236,7 +236,7 @@
               <p>The perfect triangle. Klassik Landmark is a 15min drive from Wipro Sarjapur, a 40min drive to Ecospace on the ORR and a 40min drive to Infosys Electronic City.</p>
             </div>
             <div class="top-margin">
-              <a href="#" data-ix="button-full-on-hover" class="button w-inline-block highlight">
+              <a href="pricing" target="_blank" data-ix="button-full-on-hover" class="button w-inline-block highlight">
                 <div class="button-text">Get detailed Price</div>
                 <div data-ix="button-initial-app" class="button-overlay"></div>
               </a>
