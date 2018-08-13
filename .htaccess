@@ -1,0 +1,30 @@
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+# if the URI maps to an existing file on the server, just return it
+RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" -f
+RewriteRule .? "-" [QSA,L]
+
+# if the URI maps to the home page
+# RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
+# RewriteRule ^/?$ index.php [QSA,L]
+
+# The Pricing page
+RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
+RewriteRule ^/?pricing$ http://%{HTTP_HOST}/landmark-pricing/pricing [P]
+# RewriteRule ^/?login$ http://%{HTTP_HOST}/omega/login [R=301,QSA,L,NC]
+
+# The Quotes page
+RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
+RewriteRule ^/?quote$ http://%{HTTP_HOST}/landmark-pricing/quote [P]
+# RewriteRule ^/?login$ http://%{HTTP_HOST}/omega/login [R=301,QSA,L,NC]
+
+# the catch-all "else" block
+# forward the request to index.php; it will do the heavy-lifting
+# RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
+# RewriteCond %{ENV:NOT_FOUND} ^$
+# RewriteRule .? / [ENV=NOT_FOUND:true,QSA,R=301,L]
+
+</IfModule>
