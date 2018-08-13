@@ -636,7 +636,7 @@
         <div class="w-col w-col-2">
           <div>
             <!-- <p class="copyright">© 2017 Noon by <a href="#" class="link">Deni Bozo</a>. Powered by <a href="#" class="link">Webflow</a></p> -->
-            <p class="copyright">Powered by <a href="http://lazaro.in/" target="_blank" class="link">Seyonii Marketing Technologies Pvt. Ltd.</a></p>
+            <p class="copyright">Powered by <a href="http://seyonii.com/" target="_blank" class="link">Seyonii Marketing Technologies Pvt. Ltd.</a></p>
           </div>
         </div>
         <div class="w-col w-col-1">
