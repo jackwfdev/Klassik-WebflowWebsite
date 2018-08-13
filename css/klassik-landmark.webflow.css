@@ -464,14 +464,6 @@ blockquote {
   background-image: url('../images/tools.svg');
 }
 
-
-.features-icon.icon-aerodynamic { background-image: url('../images/aerodynamic.svg'); }
-.features-icon.icon-coktail { background-image: url('../images/coktail.svg'); }
-.features-icon.icon-lift { background-image: url('../images/lift.svg'); }
-.features-icon.icon-park { background-image: url('../images/park.svg'); }
-.features-icon.icon-swimming { background-image: url('../images/swimming.svg'); }
-.features-icon.icon-ventilation { background-image: url('../images/ventilation.svg'); }
-
 .features-icon.left {
   margin-left: 0px;
 }
@@ -504,6 +496,18 @@ blockquote {
 
 .button.button-white:hover {
   color: #fc425d;
+}
+
+.button.highlight {
+  border-color: #5f6ef2;
+  color: #fff;
+  background-color: #5f6ef2;
+  background-image: -webkit-linear-gradient(315deg, #fc425d, #5f6ef2);
+  background-image: linear-gradient(135deg, #fc425d, #5f6ef2);
+}
+
+.button.highlight:hover {  
+  border-color: #fc425d;
 }
 
 .button.in-password:hover {
@@ -731,7 +735,8 @@ blockquote {
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 1;
+  /*opacity: 1;*/
+  opacity: 0;
 }
 
 .testimonials-photo.photo-2 {
@@ -1399,6 +1404,14 @@ blockquote {
 
 .heading-17 {
   color: #fc425d;
+}
+
+.text-highlight {
+  display: inline-block;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(315deg, #5f6ef2, #fc425d);
+  background-image: linear-gradient(135deg, #5f6ef2, #fc425d);
 }
 
 .div-block-10 {
