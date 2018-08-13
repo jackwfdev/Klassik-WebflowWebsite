@@ -9,7 +9,7 @@
 <html data-wf-page="5b694a711e6e1143ad05ce7f" data-wf-site="5b694a711e6e1190d905ce7b">
 <head>
   <meta charset="utf-8">
-  <title>Noon - Architecture Webflow Template</title>
+  <title>Klassik | Landmark</title>
   <meta content="This HTML5 template is ideal for architects, furniture designers, photographers, and those who need an easy, attractive and effective way to share their work with clients." name="description">
   <meta content="Noon - Architecture Webflow Template" property="og:title">
   <meta content="This HTML5 template is ideal for architects, furniture designers, photographers, and those who need an easy, attractive and effective way to share their work with clients." property="og:description">
