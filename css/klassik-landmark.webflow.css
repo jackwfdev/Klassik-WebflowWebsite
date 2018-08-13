@@ -460,6 +460,13 @@ blockquote {
   background-repeat: no-repeat;
 }
 
+.features-icon.icon-aerodynamic { background-image: url('../images/aerodynamic.svg'); }
+.features-icon.icon-coktail { background-image: url('../images/coktail.svg'); }
+.features-icon.icon-lift { background-image: url('../images/lift.svg'); }
+.features-icon.icon-park { background-image: url('../images/park.svg'); }
+.features-icon.icon-swimming { background-image: url('../images/swimming.svg'); }
+.features-icon.icon-ventilation { background-image: url('../images/ventilation.svg'); }
+
 .features-icon.ico-2 {
   background-image: url('../images/engineer.svg');
 }
