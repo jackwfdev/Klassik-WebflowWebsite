@@ -1,3 +1,8 @@
+<?php
+
+  $productionEnv = include __DIR__ . '/inc/env.php' ?? false;
+
+?>
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
 <!--  Last Published: Mon Aug 13 2018 05:39:19 GMT+0000 (UTC)  -->
@@ -14,6 +19,10 @@
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/klassik-landmark.webflow.css" rel="stylesheet" type="text/css">
+  <!-- Establish what environment this is being run in -->
+  <script type="text/javascript">
+    var __envProduction = <?php echo $productionEnv ? 'true' : 'false' ?>;
+  </script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Poppins:200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Lora:regular,italic,700,700italic"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
@@ -421,7 +430,7 @@
       </div>
     </div>
   </div>
-  <div id="contact" class="half-part-wrapper">
+  <div id="Contact" class="half-part-wrapper" data-loginner="Contact" data-context="Contact">
     <div class="half-part video">
       <div data-autoplay="true" data-loop="true" data-wf-ignore="true" data-poster-url="https://daks2k3a4ib2z.cloudfront.net/59b3f36bf621620001ca26cf/59b7e5acf2ba930001b73830_video-poster-00001.jpg" data-video-urls="videos/video-transcode.webm,videos/video-transcode.mp4" class="background-video w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;https://daks2k3a4ib2z.cloudfront.net/59b3f36bf621620001ca26cf/59b7e5acf2ba930001b73830_video-poster-00001.jpg&quot;)" muted="" data-wf-ignore="true"><source src="videos/video-transcode.webm" data-wf-ignore="true"><source src="videos/video-transcode.mp4" data-wf-ignore="true"></video></div>
     </div>
@@ -429,17 +438,17 @@
       <div class="container-center">
         <div class="top-title less">
           <div data-ix="fade-up-1" class="top-small-title white">Book a &#x27;Home Visit&#x27; with our Relationship Manager</div>
-          <h2 data-ix="fade-up-2" class="heading-white">Schedule a Home Visit</h2>
+          <h2 data-ix="fade-up-2" class="heading-white js_contact__feedback_success">Schedule a Home Visit</h2>
         </div>
         <div>
-          <div class="form-block w-form">
-            <form id="email-form" name="email-form" data-name="Email Form" data-ix="fade-up-3">
+          <div class="form-block">
+            <form id="email-form" class="js_contact_form js_user_required" name="email-form" data-name="Email Form" data-ix="fade-up-3"">
               <div class="w-row">
-                <div class="column w-col w-col-6"><input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Enter your name" id="name"></div>
-                <div class="column-2 w-col w-col-6"><input type="email" class="text-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="Enter your email" id="Email" required=""></div>
+                <div class="column w-col w-col-6"><input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Enter your name" id="name" required></div>
+                <div class="column-2 w-col w-col-6"><input type="email" class="text-field w-input" maxlength="256" name="email" data-name="Email" placeholder="Enter your email" id="Email" required></div>
               </div>
-              <div><textarea id="Text-Area" name="Text-Area" placeholder="Send message here..." maxlength="5000" data-name="Text Area" required="" class="text-field area w-input"></textarea>
-                <div data-ix="navigation-line-on-hover" class="read-more in-form"><input type="submit" value="Book Now" data-wait="Please wait..." class="submit-button w-button">
+              <div>
+                <div data-ix="navigation-line-on-hover" class="read-more in-form"><input type="submit" value="Book Now" data-initial="Book Now" data-progress="Sending....." class="submit-button w-button js_user_required">
                   <div data-ix="navbar-line-initial" class="line-effect normal"></div>
                 </div>
               </div>
@@ -450,6 +459,34 @@
             <div class="error-message w-form-fail">
               <div>Oops! Something went wrong while submitting the form.</div>
             </div>
+
+            <!-- Phone Trap (Login Prompt) -->
+            <!-- Phone form -->
+            <form id="phone-form" class="loginner_form_phone" name="phone-form" data-name="Phone Form" style="display: none">
+              <div class="phone-trap w-row">
+                  <select class="label invisible-select inline-middle js_phone_country_code" name="phone-country-code"><?php require __DIR__ . '/inc/phone-country-codes.php'; ?></select>
+                  <div class="visible-select select js_phone_country_code_label" style="background-image: url( images/select-light.svg )">IN +91</div>
+                  <input type="text" class="text-field w-input" maxlength="19" name="phone-number" data-name="Phone" placeholder="Enter your phone number" required>
+              </div>
+              <div class="w-row">
+                <div data-ix="navigation-line-on-hover" class="read-more in-form"><input type="submit" value="Send" data-wait="Please wait..." class="submit-button w-button" required>
+                  <div data-ix="navbar-line-initial" class="line-effect normal"></div>
+                </div>
+              </div>
+            </form>
+
+            <!-- OTP form -->
+            <form id="otp-form" class="loginner_form_otp" name="otp-form" data-name="OTP Form" style="display: none">
+              <div class="w-row">
+                <div class="column w-col w-col-6"><input type="text" class="text-field w-input" maxlength="9" name="otp" data-name="OTP" placeholder="Enter OTP" required></div>
+              </div>
+              <div class="w-row">
+                <div data-ix="navigation-line-on-hover" class="read-more in-form"><input type="submit" value="Send" data-wait="Please wait..." class="submit-button w-button">
+                  <div data-ix="navbar-line-initial" class="line-effect normal"></div>
+                </div>
+              </div>
+            </form>
+
           </div>
         </div>
       </div>
@@ -679,6 +716,15 @@
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- Bootstrap the OMEGA object -->
+  <script type="text/javascript">
+    window.__OMEGA = window.__OMEGA || { };
+    var apiEndpoint = "http://kl.lazaro.in/omega";
+  </script>
+  <script src="js/modules/set-cookie.js" type="text/javascript"></script>
+  <script src="js/modules/time-and-date.js" type="text/javascript"></script>
+  <script src="js/modules/user.js" type="text/javascript"></script>
+  <script src="js/forms.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 </html>
