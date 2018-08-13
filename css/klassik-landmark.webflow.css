@@ -364,6 +364,10 @@ blockquote {
   margin-top: 50px;
 }
 
+.phone-wrapper a {
+  text-decoration: none;
+}
+
 .vertical-column-flex {
   display: -webkit-box;
   display: -webkit-flex;
