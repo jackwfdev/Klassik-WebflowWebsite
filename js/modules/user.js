@@ -8,11 +8,6 @@
  *
  */
 
-// var apiEndpoint = "http://kl.lazaro.in/omega";
-// if ( ! __envProduction ) {
-// 	apiEndpoint = "http://omega.api.192.168.0.207.xip.io";
-// }
-
 /*
  *
  * Cookie library
@@ -49,6 +44,7 @@ function getUser ( identifyingAttribute, options ) {
 	options = options || { };
 	options.by = options.by || 'id';
 
+	var apiEndpoint = __OMEGA.settings.apiEndpoint;
 	var ajaxRequest = $.ajax( {
 		url: apiEndpoint + "/users?" + options.by + "=" + identifyingAttribute,
 		method: "GET",
@@ -254,6 +250,7 @@ $( document ).on( "submit", ".loginner_form_phone", function ( event ) {
 
 function authenticateUserPhone ( phoneNumber ) {
 
+	var apiEndpoint = __OMEGA.settings.apiEndpoint;
 	var ajaxRequest = $.ajax( {
 		url: apiEndpoint + "/users?phoneNumber=" + phoneNumber,
 		method: "GET",
@@ -310,8 +307,10 @@ function authenticateUserPhone ( phoneNumber ) {
  */
 function sendOTP ( phoneNumber ) {
 
+	var apiEndpoint = __OMEGA.settings.apiEndpoint;
+	var OTPTemplate = __OMEGA.settings.OTPTemplate;
 	var ajaxRequest = $.ajax( {
-		url: apiEndpoint + "/otp?phoneNumber=" + phoneNumber,
+		url: apiEndpoint + "/otp?phoneNumber=" + phoneNumber + "&template=" + OTPTemplate,
 		method: "GET",
 		dataType: "json"
 	} );
@@ -462,6 +461,7 @@ $( document ).on( "submit", ".loginner_form_otp", function ( event ) {
  */
 function verifyOTP ( otp ) {
 
+	var apiEndpoint = __OMEGA.settings.apiEndpoint;
 	var verificationFlow = $.ajax( {
 		url: apiEndpoint + "/otp",
 		method: "POST",
@@ -538,6 +538,7 @@ function createUser ( phoneNumber, context ) {
 	};
 
 	// Fetch the lead based on the phone number
+	var apiEndpoint = __OMEGA.settings.apiEndpoint;
 	var createUser__AjaxRequest = $.ajax( {
 		url: apiEndpoint + "/users",
 		method: "POST",
@@ -592,6 +593,7 @@ function updateUser ( id, project, data ) {
 	return new Promise( function ( resolve, reject ) {
 
 		// Fetch the lead based on the phone number
+		var apiEndpoint = __OMEGA.settings.apiEndpoint;
 		var updateUser__AjaxRequest = $.ajax( {
 			url: apiEndpoint + "/users/" + id,
 			method: "POST",

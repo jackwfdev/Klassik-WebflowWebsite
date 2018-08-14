@@ -21,7 +21,19 @@
   <link href="css/klassik-landmark.webflow.css" rel="stylesheet" type="text/css">
   <!-- Establish what environment this is being run in -->
   <script type="text/javascript">
+
+    // Establish the environment
     var __envProduction = <?php echo $productionEnv ? 'true' : 'false' ?>;
+
+    // Establish global state
+    window.__OMEGA = window.__OMEGA || { };
+    // Initialize the API endpoint
+    __OMEGA.settings = __OMEGA.settings || { };
+    __OMEGA.settings.apiEndpoint = __OMEGA.settings.apiEndpoint || location.origin.replace( /\/+$/, "" ) + "/omega";
+    if ( ! __envProduction ) {
+      __OMEGA.settings.apiEndpoint = "http://omega.api.192.168.0.207.xip.io";
+    }
+
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Poppins:200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Lora:regular,italic,700,700italic"]  }});</script>
