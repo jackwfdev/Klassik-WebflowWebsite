@@ -833,7 +833,7 @@
   <div data-ix="preloader" class="preloader">
     <div class="preloader-icon"><img src="images/oval.svg"></div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/jQuery-v3.3.1.min.js"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- Bootstrap the OMEGA object -->
   <script type="text/javascript">
