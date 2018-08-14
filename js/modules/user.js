@@ -528,7 +528,7 @@ function verifyOTP ( otp ) {
 function createUser ( phoneNumber, context ) {
 
 	// Get the current timestamp
-	var timestamp = getDateAndTimeStamp();
+	var timestamp = getDateAndTimeStamp( { separator: "-" } );
 
 	// Build the payload
 	var requestPayload = {
@@ -583,9 +583,6 @@ function createUser ( phoneNumber, context ) {
  *
  */
 function updateUser ( id, project, data ) {
-
-	// Get the current timestamp
-	var timestamp = getDateAndTimeStamp();
 
 	// Build the payload
 	var requestPayload = { fields: data };
