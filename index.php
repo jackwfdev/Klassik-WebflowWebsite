@@ -819,12 +819,12 @@
         </div>
         <div class="w-col w-col-3">
           <div>
-            <p><strong>HEAD OFFICE</strong><br>Sy No.10/1 &amp; 11/1,<br>Kalena Agrahara, Hobli,<br>Near Meenakshi Temple,<br>Bannerghatta Road, <br>Bangalore - 560 076.<br><br>Office : <a href="tel:+918025379797" class="link">080-25379797</a><br><br></p>
+            <p><strong>HEAD OFFICE</strong><br>Sy No.10/1 &amp; 11/1,<br>Kalena Agrahara, Hobli,<br>Near Meenakshi Temple,<br>Bannerghatta Road, <br>Bangalore - 560 076.<br></p>
           </div>
         </div>
         <div class="w-col w-col-3">
           <div>
-            <p><strong>PROJECT OFFICE</strong><br>Sy No.34/9 - 34/13,<br>Junnasandra, Varthur,<br>Near Amritha College Of Engineering,<br>Bangalore - 560 035.<br>‍<br>Office : <a href="tel:+918025746468" class="link">080-25746468</a><br>Sales Enquiry : <a href="tel:+917676168168" class="link">7676-168-168</a><br></p>
+            <p><strong>PROJECT OFFICE</strong><br>Sy No.34/9 - 34/13,<br>Junnasandra, Varthur,<br>Near Amritha College Of Engineering,<br>Bangalore - 560 035.<br>‍<br>Call : <a href="tel:+917676168168" class="link">7676-168-168</a><br></p>
           </div>
         </div>
       </div>
