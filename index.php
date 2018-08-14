@@ -147,6 +147,12 @@
                 <div data-ix="navbar-line-initial" class="line-effect"></div>
               </div>
             </a>
+            <a href="#masterplan" data-ix="navigation-line-on-hover" class="navigation-link w-inline-block">
+              <div class="nav-line-wrapper">
+                <div class="text-block">Masterplan</div>
+                <div data-ix="navbar-line-initial" class="line-effect"></div>
+              </div>
+            </a>
             <a href="#location" data-ix="navigation-line-on-hover" class="navigation-link w-inline-block">
               <div class="nav-line-wrapper">
                 <div class="text-block">Location</div>
@@ -350,6 +356,87 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="masterplan" class="section">
+    <div class="container-fluid">
+      <div class="more">
+        <div>
+          <div class="align-center">
+            <div>
+              <div class="top-small-title">Know your Surroundings</div>
+              <h1 class="heading-7">The Masterplan</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="w-row">
+          <img src="images/Klassik_Masterplan.png" data-ix="fade-right-1" srcset="images/Klassik_Masterplan-p-500.png 500w, images/Klassik_Masterplan-p-800.png 800w, images/Klassik_Masterplan.png 1000w" sizes="100%">
+          <!-- <div class="w-col w-col-4">
+            <div data-ix="fade-up-2" class="features-wrapper">
+              <div class="features-icon icon-park"></div>
+              <div class="align-center">
+                <h4 class="heading-11">8 Acres Of Open Space</h4>
+                <p>Klassik Landmark is spread over 11 acres. Unlike most other developments around Sarjapur Road. We have designed a traffic free, pedestrian friendly podium level.</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-col w-col-4">
+            <div data-ix="fade-up-1" class="features-wrapper">
+              <div class="features-icon icon-aerodynamic"></div>
+              <div class="align-center">
+                <h4 class="heading-12">Aerodynamic Design</h4>
+                <p>The &#x27;wing-shaped&#x27; design of the towers, maximises airflow around each building. Unlike a rectangular shaped building, every balcony and window in Klassik Landmark receives ample light and fresh air.</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-col w-col-4">
+            <div data-ix="fade-up-3" class="features-wrapper">
+              <div class="features-icon icon-lift"></div>
+              <div class="align-center">
+                <h4 class="heading-13">Only 3 Flats Per Floor</h4>
+                <p>Every lift lobby only serves 3 apartments per floor. Each lift lobby has 2 lifts, one 13 person lift and one 6 person lift.</p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div class="div-block-6">
+        <div class="w-row" style="text-align: center; margin-top: 20px;">
+          <a href="pricing" target="_blank" data-ix="button-full-on-hover" class="button w-inline-block highlight">
+            <div class="button-text">Search for Available Flats</div>
+            <div data-ix="button-initial-app" class="button-overlay"></div>
+          </a>
+          <!-- <div class="w-col w-col-4">
+            <div data-ix="fade-up-1" class="features-wrapper">
+              <div class="features-icon icon-ventilation"></div>
+              <div class="align-center">
+                <h4 class="heading-14">Optimised Ventilation</h4>
+                <p>The ventilation in the flats is a direct benefit of the &#x27;wing-shaped&#x27; towers. Unlike most other flats in Bangalore, we have discretely placed all toilets on the outer edge of the building, to ensure ample sunlight and ventilation.</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-col w-col-4">
+            <div data-ix="fade-up-3" class="features-wrapper">
+              <div class="features-icon icon-coktail"></div>
+              <div class="align-center">
+                <h4 class="heading-15">25,000sft Clubhouse</h4>
+                <p>It is big as well. The 25,000sft clubhouse is well equipped to service the 700 apartments in Klassik Landmark.</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-col w-col-4">
+            <div data-ix="fade-up-2" class="features-wrapper">
+              <div class="features-icon icon-swimming"></div>
+              <div class="align-center">
+                <h4 class="heading-16">Olympic Size Pool</h4>
+                <p>It is big. You can swim an olympic length lap from one end to the other. The swimming pool is a crowning feature of the project. Some of Klassik Landmark&#x27;s best views are from flats overlooking the pool.</p>
+              </div>
+            </div>
+          </div> -->
         </div>
       </div>
     </div>
