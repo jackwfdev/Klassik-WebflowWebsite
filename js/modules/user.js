@@ -428,7 +428,8 @@ $( document ).on( "submit", ".loginner_form_otp", function ( event ) {
 			var context = $form.closest( "[ data-loginner ]" ).data( "context" );
 			// Register the user
 			var phoneNumber = __OMEGA.user.phoneNumber;
-			createUser( phoneNumber, context )
+			var project = __OMEGA.settings.Project;
+			createUser( phoneNumber, context, project )
 				// Then, log in the user
 				.then( function ( user ) {
 					// Log the user in
@@ -525,7 +526,7 @@ function verifyOTP ( otp ) {
  * Create a user
  *
  */
-function createUser ( phoneNumber, context ) {
+function createUser ( phoneNumber, context, project ) {
 
 	// Get the current timestamp
 	var timestamp = getDateAndTimeStamp( { separator: "-" } );
@@ -534,7 +535,8 @@ function createUser ( phoneNumber, context ) {
 	var requestPayload = {
 		phoneNumber: phoneNumber,
 		firstName: userImplicitNamePrefix + " " + context,
-		lastName: timestamp
+		lastName: timestamp,
+		project: project
 	};
 
 	// Fetch the lead based on the phone number
