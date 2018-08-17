@@ -30,6 +30,7 @@
     // Initialize the API endpoint
     __OMEGA.settings = __OMEGA.settings || { };
     __OMEGA.settings.Project = "Klassik Landmark";
+    __OMEGA.settings.OTPTemplate = "Klassik";
     __OMEGA.settings.apiEndpoint = __OMEGA.settings.apiEndpoint || location.origin.replace( /\/+$/, "" ) + "/omega";
     if ( ! __envProduction ) {
       __OMEGA.settings.apiEndpoint = "http://omega.api.192.168.0.207.xip.io";
