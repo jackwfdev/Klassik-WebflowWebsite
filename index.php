@@ -827,7 +827,6 @@
           </div>
         </div>
       </div>
-    </div>
      <p style="
         padding-top:  50px;
          font-size: 11px;
@@ -838,6 +837,8 @@
 
         To find out more about projects/developments, please call 7676 168168 or visit our sales office during working hours and get in touch with authorized Klassik Enterprises sales representative.
       </p>
+  </div>
+  
   </div>
   <div data-ix="preloader" class="preloader js_preloader">
     <div class="preloader-icon"><img src="images/oval.svg"></div>
