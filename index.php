@@ -268,10 +268,10 @@
           <div data-ix="fade-left-1"><img src="images/landmark-logo-color.svg" width="400" class="landmark-logo">
             <h1 class="heading-3 text-highlight">Klassik Landmark</h1>
             <div class="top-small-title">Ideal work commutes<br></div>
-            <h1 class="heading-9">3BHKs Near Wipro Sarjapur</h1>
+           <h1 class="heading-9">3BHKs Near Wipro</h1>
             <h1 class="heading-8">starting at 110 Lakhs</h1>
             <div class="top-margin">
-              <p>The perfect triangle. Klassik Landmark is a 15min drive from Wipro Sarjapur, a 40min drive to Ecospace on the ORR and a 40min drive to Infosys Electronic City.</p>
+             <p>The perfect triangle. Klassik Landmark is a 10min drive from the Wipro Head Office on Sarjapur Road, a 40min drive to Ecospace on the ORR and a 40min drive to Infosys Electronic City.</p>
             </div>
             <div class="top-margin">
               <a href="pricing" target="_blank" data-ix="button-full-on-hover" class="button w-inline-block highlight">
@@ -302,8 +302,8 @@
             <div data-ix="fade-up-2" class="features-wrapper">
               <div class="features-icon icon-park"></div>
               <div class="align-center">
-                <h4 class="heading-11">8 Acres Of Open Space</h4>
-                <p>Klassik Landmark is spread over 11 acres. Unlike most other developments around Sarjapur Road. We have designed a traffic free, pedestrian friendly podium level.</p>
+                <h4 class="heading-11">9 Acres Of Open Space</h4>
+               <p>Klassik Landmark is spread over 11 acres. Unlike most other developments around Sarjapur Road. We have designed a vehicular free, pedestrian friendly landscaped podium.</p>
               </div>
             </div>
           </div>
@@ -334,7 +334,7 @@
               <div class="features-icon icon-ventilation"></div>
               <div class="align-center">
                 <h4 class="heading-14">Optimised Ventilation</h4>
-                <p>The ventilation in the flats is a direct benefit of the &#x27;wing-shaped&#x27; towers. Unlike most other flats in Bangalore, we have discretely placed all toilets on the outer edge of the building, to ensure ample sunlight and ventilation.</p>
+               <p>The ventilation in the flats is a direct benefit of the &#x27;wing-shaped&#x27; towers. Unlike most other flats in Bangalore, we have discreetly placed all toilets on the outer edge of the building, to ensure ample sunlight and ventilation.</p>
               </div>
             </div>
           </div>
@@ -707,22 +707,21 @@
                   <div class="testimonials-photo"></div>
                   <h4 class="testi-title">SharathChandra Peshwa</h4>
                   <div class="top-small-title smaller">Blue Bell - 5A</div>
-                  <p class="testimonial-paragraph">The location is what impressed me the most about Klassik Landmark project. At present I am staying in flat number 5A, the flat is superb. The project has a calm and peaceful atmosphere. The sort of place I look forward to after a long day at work. I visited many projects in Sarjapur road, but none came close to Klassik Landmark</p>
+                 <p class="testimonial-paragraph">The location off Sarjapur Road is what impressed me the most about Klassik Landmark project. At present I am staying in flat number 5A, the apartment is superb. The project has a calm and peaceful atmosphere. The sort of place I look forward to after a long day at work. I visited many apartment projects in Sarjapur road, but none came close to Klassik Landmark</p>
                 </div>
                 <div data-ix="fade-up-2" class="testimonials-wrapper no-margin">
                   <div class="testimonials-photo photo-4"></div>
                   <h4 class="testi-title">Mr. Alok Agarwal</h4>
                   <div class="top-small-title smaller">Cosmos - 11E</div>
-                  <p class="testimonial-paragraph">I was searching for a 3BHK flat for more than a year. I wanted a quality product within my budget. I visited over 15 projects across East Bangalore, including some top builders, but I wasn&#x27;t convinced, it was either a product shortcoming or an issue with the people who dealth with me. My visit to Klassik Landmark in Dec 2015 was the exact oppposite. I then visited their completed project Klassik Benchmark in Bannerghatta road, and was convinced about their capability. I finally took a call and booked. Today the project looks excellent and was delivered on time.</p>
-                </div>
+                    <p class="testimonial-paragraph">I was searching for a 3BHK flat for more than a year. I wanted a quality apartment within my budget. I visited over 15 apartment projects across East Bangalore, including some top builders, but I wasn&#x27;t convinced, it was either a product shortcoming or an issue with the people who dealt with me. My visit to Klassik Landmark in Dec 2015 was the exact opposite. I then visited their completed project Klassik Benchmark on Bannerghatta road, and I was convinced about their capability. I finally took a call and booked and apartment here. Today the project looks excellent and it was delivered on time.</p>            
+                        </div>
               </div>
               <div class="w-col w-col-6">
                 <div data-ix="fade-up-2" class="testimonials-wrapper move-down">
                   <div class="testimonials-photo photo-2"></div>
                   <h4 class="testi-title">Mahesh Mane</h4>
                   <div class="top-small-title smaller">Blue bell - 3B</div>
-                  <p class="testimonial-paragraph">I had visited their office on Sarjapur road. They explained to me that they only build one project at a time. Only on completion of the project do they even think of the new project. This is a rare quality amidst the real estate industry. This really impressed me. After digging around, I found this was a fact and not a meaningless statement. This convinced me to book a flat.</p>
-                </div>
+                    <p class="testimonial-paragraph">I had visited the Klassik office on Sarjapur road. They explained to me that they only build one project at a time. Only on completion of the project do they even think of the new project. This is a rare quality amidst the real estate industry. This really impressed me. After digging around, I found this was a fact and not a meaningless statement. This convinced me to book a flat.</p>                </div>
                 <div data-ix="fade-up-1" class="testimonials-wrapper no-margin">
                   <div class="testimonials-photo photo-3"></div>
                   <h4 class="testi-title">Rajesh</h4>
@@ -829,6 +828,16 @@
         </div>
       </div>
     </div>
+     <p style="
+        padding-top:  50px;
+         font-size: 11px;
+         line-height: 15px;
+         "><strong>DISCLAIMER :</strong> The content mentioned on this website is for general information purposes only. While enough care is taken by Klassik Enterprises Pvt Ltd to ensure that information on the website is up to date, accurate and correct, readers are requested to make their independent enquiry before relying upon the same. In no event will Klassik Enterprises offer any warranty on the information made available, or be liable for any loss or damage including without limitation, indirect or consequential loss or damage in connection with, the use of information in this website. By using or accessing the website, you agree with the Disclaimer without any qualification or limitation. Design, specifications, floor plans, brochures, 360 degree views and interactive plans etc., are subject to change without prior notice. Computer generated images; walkthroughs and render images are the artist's impression and are an indicative of the actual designs.
+
+        The contents of this website are meant to provide information to the readers of this website about ourselves including our various projects, etc. They are only for general information and are subject to change. By no stretch of imagination, the information on the website shall be construed as an advertisement and/or invitation or offer for sale.
+
+        To find out more about projects/developments, please call 7676 168168 or visit our sales office during working hours and get in touch with authorized Klassik Enterprises sales representative.
+      </p>
   </div>
   <div data-ix="preloader" class="preloader js_preloader">
     <div class="preloader-icon"><img src="images/oval.svg"></div>
