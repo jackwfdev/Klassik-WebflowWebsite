@@ -9,7 +9,7 @@
 <html data-wf-page="5b694a711e6e1143ad05ce7f" data-wf-site="5b694a711e6e1190d905ce7b">
 <head>
   <meta charset="utf-8">
-  <title>Klassik | Landmark</title>
+  <title>Klassik | Landmark | 3BHK Flats & Apartments | Sarjapur Road</title>
   <meta content="This HTML5 template is ideal for architects, furniture designers, photographers, and those who need an easy, attractive and effective way to share their work with clients." name="description">
   <meta content="Noon - Architecture Webflow Template" property="og:title">
   <meta content="This HTML5 template is ideal for architects, furniture designers, photographers, and those who need an easy, attractive and effective way to share their work with clients." property="og:description">
@@ -271,7 +271,7 @@
            <h1 class="heading-9">3BHKs Near Wipro</h1>
             <h1 class="heading-8">starting at 110 Lakhs</h1>
             <div class="top-margin">
-             <p>The perfect triangle. Klassik Landmark is a 10 minute drive from the Wipro Head Office on Sarjapur Road, just 6 kms away from Ecospace on the ORR and 9 kms away from Electronic City. The proposed Hosa Road Metro Station is just a 10 minutes drive.</p>
+             <p>The perfect triangle. Klassik Landmark is a 10 minute drive from the Wipro Head Office on Sarjapur Road, just 6 kms away from Ecospace on the ORR and 9 kms away from Electronic City. The proposed Hosa Road Metro Station is just a 10 minute drive.</p>
             </div>
             <div class="top-margin">
               <a href="pricing" target="_blank" data-ix="button-full-on-hover" class="button w-inline-block highlight">
