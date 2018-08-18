@@ -8,6 +8,15 @@
 <!--  Last Published: Mon Aug 13 2018 05:39:19 GMT+0000 (UTC)  -->
 <html data-wf-page="5b694a711e6e1143ad05ce7f" data-wf-site="5b694a711e6e1190d905ce7b">
 <head>
+  
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TKCJ5FN');</script>
+<!-- End Google Tag Manager -->
+  
   <meta charset="utf-8">
   <title>Klassik | Landmark | 3BHK Flats & Apartments | Sarjapur Road</title>
   <meta content="This HTML5 template is ideal for architects, furniture designers, photographers, and those who need an easy, attractive and effective way to share their work with clients." name="description">
@@ -70,6 +79,10 @@
 </style>
 </head>
 <body class="top-content">
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKCJ5FN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
   <div class="banner">
     <div class="center-banner">
       <div class="align-center">
