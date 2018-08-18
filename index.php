@@ -387,7 +387,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <div>
         <div class="w-row">
-          <img src="images/Klassik_Masterplan.png" data-ix="fade-right-1" srcset="images/Klassik_Masterplan-p-500.png 500w, images/Klassik_Masterplan-p-800.png 800w, images/Klassik_Masterplan.png 1000w" sizes="100%">
+          <img src="images/Klassik_Masterplan.png?v=1.1" data-ix="fade-right-1" srcset="images/Klassik_Masterplan-p-500.png?v=1.1 500w, images/Klassik_Masterplan-p-800.png?v=1.1 800w, images/Klassik_Masterplan.png?v=1.1 1000w" sizes="100%">
           <!-- <div class="w-col w-col-4">
             <div data-ix="fade-up-2" class="features-wrapper">
               <div class="features-icon icon-park"></div>
