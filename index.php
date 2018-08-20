@@ -102,7 +102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="line-1"></div>
           <div class="line-2"></div>
           <div class="line-3"></div>
-        </div><a href="index.html" class="brand-logo w-inline-block w--current"></a></div>
+        </div><a href="" class="brand-logo w-inline-block w--current"></a></div>
       <nav data-ix="left-navigation-initial" class="left-navigation">
         <div class="navigation-fixed">
           <nav data-ix="navbar-front" class="navbar">
@@ -799,7 +799,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="footer-wrapper">
       <div class="w-row">
         <div class="w-col w-col-2">
-          <div><a href="index.html" class="w-inline-block w--current"><img src="images/klassic-logo-color.svg" width="100"></a></div>
+          <div><a href="" class="w-inline-block w--current"><img src="images/klassic-logo-color.svg" width="100"></a></div>
         </div>
         <div class="w-col w-col-2">
           <div>
