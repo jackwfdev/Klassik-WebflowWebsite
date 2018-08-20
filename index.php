@@ -8,7 +8,7 @@
 <!--  Last Published: Mon Aug 13 2018 05:39:19 GMT+0000 (UTC)  -->
 <html data-wf-page="5b694a711e6e1143ad05ce7f" data-wf-site="5b694a711e6e1190d905ce7b">
 <head>
-  
+
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -16,7 +16,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-TKCJ5FN');</script>
 <!-- End Google Tag Manager -->
-  
+
   <meta charset="utf-8">
   <title>Klassik | Landmark | 3BHK Flats & Apartments | Sarjapur Road</title>
   <meta content="This HTML5 template is ideal for architects, furniture designers, photographers, and those who need an easy, attractive and effective way to share their work with clients." name="description">
@@ -726,7 +726,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="testimonials-photo photo-4"></div>
                   <h4 class="testi-title">Mr. Alok Agarwal</h4>
                   <div class="top-small-title smaller">Cosmos - 11E</div>
-                    <p class="testimonial-paragraph">I was searching for a 3BHK flat for more than a year. I wanted a quality apartment within my budget. I visited over 15 apartment projects across East Bangalore, including some top builders, but I wasn&#x27;t convinced, it was either a product shortcoming or an issue with the people who dealt with me. My visit to Klassik Landmark in Dec 2015 was the exact opposite. I then visited their completed project Klassik Benchmark on Bannerghatta road, and I was convinced about their capability. I finally took a call and booked and apartment here. Today the project looks excellent and it was delivered on time.</p>            
+                    <p class="testimonial-paragraph">I was searching for a 3BHK flat for more than a year. I wanted a quality apartment within my budget. I visited over 15 apartment projects across East Bangalore, including some top builders, but I wasn&#x27;t convinced, it was either a product shortcoming or an issue with the people who dealt with me. My visit to Klassik Landmark in Dec 2015 was the exact opposite. I then visited their completed project Klassik Benchmark on Bannerghatta road, and I was convinced about their capability. I finally took a call and booked and apartment here. Today the project looks excellent and it was delivered on time.</p>
                         </div>
               </div>
               <div class="w-col w-col-6">
@@ -804,7 +804,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="w-col w-col-2">
           <div>
             <!-- <p class="copyright">© 2017 Noon by <a href="#" class="link">Deni Bozo</a>. Powered by <a href="#" class="link">Webflow</a></p> -->
-            <p class="copyright">Powered by <a href="http://seyonii.com/" target="_blank" class="link">Seyonii Marketing Technologies Pvt. Ltd.</a></p>
+            <p class="copyright">Powered by <br>Seyonii Marketing Technologies Pvt. Ltd.</p>
           </div>
         </div>
         <div class="w-col w-col-1">
@@ -851,7 +851,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         To find out more about projects/developments, please call 7676 168168 or visit our sales office during working hours and get in touch with authorized Klassik Enterprises sales representative.
       </p>
   </div>
-  
+
   </div>
   <div data-ix="preloader" class="preloader js_preloader">
     <div class="preloader-icon"><img src="images/oval.svg"></div>
