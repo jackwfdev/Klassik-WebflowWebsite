@@ -198,8 +198,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </a>
           </nav>
           <div data-ix="navbar-front" class="phone-wrapper w-hidden-small">
-            <a href="tel:+917676168168" class="div-block-2"><span class="social-icon call w-inline-block"></span>
-              <div class="text-top">+91-7676-168-168</div>
+            <a href="tel:+919663396887" class="div-block-2"><span class="social-icon call w-inline-block"></span>
+              <div class="text-top">+91-9663-396-887</div>
             </a>
             <a href="mailto:sales@klassikbuild.com" target="_blank" class="div-block-2"><span class="social-icon mail w-inline-block"></span>
               <div class="text-top">sales@klassikbuild.com</div>
@@ -260,8 +260,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <p>We invested 30 years of design and execution expertise in Klassik Landmark. The goal was to build an apartment project that best served the needs of working professionals upgrading from smaller 3BHK and 2BHK flats.</p>
             </div>
             <div class="top-margin">
-              <a href="tel:+917676168168" data-ix="button-full-on-hover" class="button w-inline-block">
-                <div class="button-text">Call : 7676-168-168<br></div>
+              <a href="tel:+919663396887" data-ix="button-full-on-hover" class="button w-inline-block">
+                <div class="button-text">Call : 9663-396-887<br></div>
                 <div data-ix="button-initial-app" class="button-overlay"></div>
               </a>
             </div>
@@ -836,7 +836,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div class="w-col w-col-3">
           <div>
-            <p><strong>PROJECT OFFICE</strong><br>Sy No.34/9 - 34/13,<br>Junnasandra, Varthur,<br>Near Amritha College Of Engineering,<br>Bangalore - 560 035.<br>‍<br>Call : <a href="tel:+917676168168" class="link">7676-168-168</a><br></p>
+            <p><strong>PROJECT OFFICE</strong><br>Sy No.34/9 - 34/13,<br>Junnasandra, Varthur,<br>Near Amritha College Of Engineering,<br>Bangalore - 560 035.<br>‍<br>Call : <a href="tel:+919663396887" class="link">9663-396-887</a><br></p>
           </div>
         </div>
       </div>
@@ -848,7 +848,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         The contents of this website are meant to provide information to the readers of this website about ourselves including our various projects, etc. They are only for general information and are subject to change. By no stretch of imagination, the information on the website shall be construed as an advertisement and/or invitation or offer for sale.
 
-        To find out more about projects/developments, please call 7676 168168 or visit our sales office during working hours and get in touch with authorized Klassik Enterprises sales representative.
+        To find out more about projects/developments, please call 9663-396-887 or visit our sales office during working hours and get in touch with authorized Klassik Enterprises sales representative.
       </p>
   </div>
 
