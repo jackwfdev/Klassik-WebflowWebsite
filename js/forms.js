@@ -42,6 +42,11 @@ Loginner.registerLoginPrompt( "Contact", {
 		$( this ).find( "[ type = submit ]" ).val( "Send" );
 		$( this ).find( "input, select, button" ).prop( "disabled", false );
 	},
+	onOTPVerified: function ( context ) {
+		var url = location.origin.replace( /\/$/, "" ) + "/trac/" + projectBaseURL;
+		var name = "user/new/" + context.toLowerCase().replace( /[\s|]+/g, "-" );
+		openPage( url, name, { closeOnLoad: true } );
+	},
 	onLogin: function ( user ) {
 
 		// Store the data on the side

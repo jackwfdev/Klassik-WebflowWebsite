@@ -872,6 +872,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           baseURL = urlParts[ 0 ]
       }
       var userImplicitNamePrefix = "AG";
+      var projectBaseURL = "landmark";
     }
   </script>
   <script src="js/modules/set-cookie.js" type="text/javascript"></script>
