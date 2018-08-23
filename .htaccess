@@ -11,6 +11,10 @@ RewriteRule .? "-" [QSA,L]
 RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
 RewriteRule ^/?$ index.php [QSA,L]
 
+# The Tracking and Analytics page
+RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
+RewriteRule ^/?trac/(.*)$ /pages/tracking.php [QSA,L]
+
 # The Pricing page
 RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
 RewriteRule ^/?pricing$ http://%{HTTP_HOST}/landmark-pricing/pricing [P]
