@@ -2,6 +2,8 @@
 
   $productionEnv = include __DIR__ . '/inc/env.php' ?? false;
 
+  $ver = '20180824';
+
 ?>
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
@@ -26,7 +28,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/klassik-landmark.webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/klassik-landmark.webflow.css<?= '?v=' . $ver ?>" rel="stylesheet" type="text/css">
   <!-- Establish what environment this is being run in -->
   <script type="text/javascript">
 
@@ -856,7 +858,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="preloader-icon"><img src="images/oval.svg"></div>
   </div>
   <script type="text/javascript" src="js/jQuery-v3.3.1.min.js"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="js/webflow.js<?= '?v=' . $ver ?>" type="text/javascript"></script>
   <!-- Bootstrap the OMEGA object -->
   <script type="text/javascript">
     window.__OMEGA = window.__OMEGA || { };
@@ -875,10 +877,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       var projectBaseURL = "landmark";
     }
   </script>
-  <script src="js/modules/set-cookie.js" type="text/javascript"></script>
-  <script src="js/modules/time-and-date.js" type="text/javascript"></script>
-  <script src="js/modules/user.js" type="text/javascript"></script>
-  <script src="js/forms.js" type="text/javascript"></script>
+  <script src="js/modules/set-cookie.js<?= '?v=' . $ver ?>" type="text/javascript"></script>
+  <script src="js/modules/time-and-date.js<?= '?v=' . $ver ?>" type="text/javascript"></script>
+  <script src="js/modules/user.js<?= '?v=' . $ver ?>" type="text/javascript"></script>
+  <script src="js/modules/window.js<?= '?v=' . $ver ?>" type="text/javascript"></script>
+  <script src="js/forms.js<?= '?v=' . $ver ?>" type="text/javascript"></script>
   <!-- <script src="js/page-load.js" type="text/javascript"></script> -->
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script type="text/javascript">
