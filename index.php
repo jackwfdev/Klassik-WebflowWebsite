@@ -18,13 +18,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
   <meta charset="utf-8">
-  <title>Klassik | Landmark | 3BHK Flats & Apartments | Sarjapur Road</title>
-  <meta content="This HTML5 template is ideal for architects, furniture designers, photographers, and those who need an easy, attractive and effective way to share their work with clients." name="description">
-  <meta content="Noon - Architecture Webflow Template" property="og:title">
-  <meta content="This HTML5 template is ideal for architects, furniture designers, photographers, and those who need an easy, attractive and effective way to share their work with clients." property="og:description">
+  <title>Klassik | Landmark | 3BHK Flats & Apartments for Sale | Sarjapur Road</title>
+  <meta content="3BHKs Near Wipro. Starting At 110 Lakhs. Klassik Landmark is a 10 minute drive from the Wipro Head Office on Sarjapur Road, just 6 kms away from Ecospace on the ORR and 9 kms away from Electronic City. The proposed Hosa Road Metro Station is just a 10 minute drive." name="description">
+  <meta content="Klassik | Landmark | 3BHK Flats & Apartments for Sale | Sarjapur Road" property="og:title">
+  <meta content="3BHKs Near Wipro. Starting At 110 Lakhs. Klassik Landmark is a 10 minute drive from the Wipro Head Office on Sarjapur Road, just 6 kms away from Ecospace on the ORR and 9 kms away from Electronic City. The proposed Hosa Road Metro Station is just a 10 minute drive." property="og:description">
   <meta content="summary" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/klassik-landmark.webflow.css" rel="stylesheet" type="text/css">
