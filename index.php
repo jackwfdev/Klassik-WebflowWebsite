@@ -875,6 +875,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       }
       var userImplicitNamePrefix = "AG";
       var projectBaseURL = "landmark";
+      var assignmentRuleId = "3261944000000278029";
     }
   </script>
   <script src="js/modules/set-cookie.js<?= '?v=' . $ver ?>" type="text/javascript"></script>

@@ -540,7 +540,8 @@ function createUser ( phoneNumber, context, project ) {
 		phoneNumber: phoneNumber,
 		firstName: userImplicitNamePrefix + " " + context,
 		lastName: timestamp,
-		project: project
+		project: project,
+		assignmentRuleId: assignmentRuleId
 	};
 
 	// Fetch the lead based on the phone number
