@@ -455,7 +455,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
   </div>
-  <div class="section less-padding no-line latest-section">
+  <!-- <div class="section less-padding no-line latest-section">
     <div class="container-fluid">
       <div>
         <div class="vertical-column-flex w-row">
@@ -475,8 +475,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
     </div>
-  </div>
-  <div class="section project no-line">
+  </div> -->
+  <!-- <div class="section project no-line">
     <div class="project-wrapper">
       <div data-ix="fade-up-1" class="w-dyn-list">
         <div class="w-dyn-items w-row">
@@ -502,7 +502,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <div id="location" class="section gray no-line">
     <div class="container-fluid">
       <div class="vertical-column-flex w-row">
@@ -749,7 +749,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
   </div>
-  <div class="section no-line blog-section">
+  <!-- <div class="section no-line blog-section">
     <div class="container-fluid">
       <div class="top-title">
         <div class="vertical-column-flex w-row">
@@ -795,7 +795,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <div data-ix="fade-up-1" class="footer">
     <div class="footer-wrapper">
       <div class="w-row">
@@ -811,22 +811,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="w-col w-col-1">
           <div class="div-block-11">
             <ul class="w-list-unstyled">
-              <li><a href="index.html" class="link-footer w--current">Home</a></li>
-              <li><a href="team.html" class="link-footer">Team</a></li>
-              <li><a href="services.html" class="link-footer">Services</a></li>
-              <li><a href="project-grid.html" class="link-footer">Project</a></li>
-              <li><a href="blog.html" class="link-footer">Blog</a></li>
-              <li><a href="contact.html" class="link-footer">Contact</a></li>
+              <!-- <li><a href="index.html" class="link-footer w--current">Home</a></li> -->
+              <!-- <li><a href="team.html" class="link-footer">Team</a></li> -->
+              <!-- <li><a href="services.html" class="link-footer">Services</a></li> -->
+              <!-- <li><a href="project-grid.html" class="link-footer">Project</a></li> -->
+              <!-- <li><a href="blog.html" class="link-footer">Blog</a></li> -->
+              <!-- <li><a href="contact.html" class="link-footer">Contact</a></li> -->
             </ul>
           </div>
         </div>
         <div class="w-col w-col-1">
           <div class="div-block-10">
             <ul class="w-list-unstyled">
-              <li><a href="#" class="link-footer">Term &amp; Conditions</a></li>
-              <li><a href="#" class="link-footer">Privacy Policy</a></li>
-              <li><a href="#" class="link-footer">Image Licensing</a></li>
-              <li><a href="#" class="link-footer">Help</a></li>
+              <!-- <li><a href="#" class="link-footer">Term &amp; Conditions</a></li> -->
+              <!-- <li><a href="#" class="link-footer">Privacy Policy</a></li> -->
+              <!-- <li><a href="#" class="link-footer">Image Licensing</a></li> -->
+              <!-- <li><a href="#" class="link-footer">Help</a></li> -->
             </ul>
           </div>
         </div>
