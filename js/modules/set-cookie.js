@@ -12,6 +12,7 @@
 function setCookie ( name, data, duration ) {
 
 	var url = location.origin.replace( /\/+$/g, "" );
+	var baseURL = __OMEGA.settings.baseURL;
 	if ( __envProduction ) {
 		url += "/" + baseURL;
 	}

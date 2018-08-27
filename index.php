@@ -37,14 +37,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     // Establish global state
     window.__OMEGA = window.__OMEGA || { };
-    // Initialize the API endpoint
-    __OMEGA.settings = __OMEGA.settings || { };
-    __OMEGA.settings.Project = "Klassik Landmark";
-    __OMEGA.settings.OTPTemplate = "Klassik";
-    __OMEGA.settings.apiEndpoint = __OMEGA.settings.apiEndpoint || location.origin.replace( /\/+$/, "" ) + "/omega";
-    if ( ! __envProduction ) {
-      __OMEGA.settings.apiEndpoint = "http://omega.api.192.168.0.207.xip.io";
-    }
+
+    ( function ( __OMEGA ) {
+
+      var settings = __OMEGA.settings || { };
+
+        // Project
+      settings.Project = "Klassik Landmark";
+        // OTP Template
+      settings.OTPTemplate = "Klassik";
+        // API endpoint
+      settings.apiEndpoint = settings.apiEndpoint || location.origin.replace( /\/+$/, "" ) + "/omega";
+      if ( ! __envProduction ) {
+        settings.apiEndpoint = "http://omega.api.192.168.0.207.xip.io";
+      }
+        // Base URL
+      settings.baseURL = "";
+      if ( __envProduction ) {
+        if ( document.getElementsByTagName( "base" ).length ) {
+          settings.baseURL = document.getElementsByTagName( "base" )[ 0 ].getAttribute( "href" ).replace( /\//g, "" );
+        }
+        else {
+          var urlParts = location.pathname.match( /[^/?]+/ );
+          if ( urlParts )
+            settings.baseURL = urlParts[ 0 ]
+        }
+      }
+        // Implicit prefix that an auto-generated user gets
+      settings.userImplicitNamePrefix = "AG";
+        // project base URL
+      settings.projectBaseURL = "landmark";
+        // Zoho Assignment Rule ID
+      settings.assignmentRuleId = "3261944000000278029";
+
+      __OMEGA.settings = settings;
+
+    }( window.__OMEGA ) );
 
   </script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
@@ -859,25 +887,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <script type="text/javascript" src="js/jQuery-v3.3.1.min.js"></script>
   <script src="js/webflow.js<?= '?v=' . $ver ?>" type="text/javascript"></script>
-  <!-- Bootstrap the OMEGA object -->
-  <script type="text/javascript">
-    window.__OMEGA = window.__OMEGA || { };
-    var apiEndpoint = "http://kl.lazaro.in/omega";
-    var baseURL = "";
-    if ( __envProduction ) {
-      if ( document.getElementsByTagName( "base" ).length ) {
-        baseURL = document.getElementsByTagName( "base" )[ 0 ].getAttribute( "href" ).replace( /\//g, "" );
-      }
-      else {
-        var urlParts = location.pathname.match( /[^/?]+/ );
-        if ( urlParts )
-          baseURL = urlParts[ 0 ]
-      }
-      var userImplicitNamePrefix = "AG";
-      var projectBaseURL = "landmark";
-      var assignmentRuleId = "3261944000000278029";
-    }
-  </script>
   <script src="js/modules/set-cookie.js<?= '?v=' . $ver ?>" type="text/javascript"></script>
   <script src="js/modules/time-and-date.js<?= '?v=' . $ver ?>" type="text/javascript"></script>
   <script src="js/modules/user.js<?= '?v=' . $ver ?>" type="text/javascript"></script>
