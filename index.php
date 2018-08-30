@@ -191,7 +191,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </a>
             <a href="pricing" target="_blank" data-ix="navigation-line-on-hover" class="navigation-link w-inline-block">
               <div class="nav-line-wrapper">
-                <div class="text-block">Get Detailed Price</div>
+                <div class="text-block">Download Pricing</div>
                 <div data-ix="navbar-line-initial" class="line-effect"></div>
               </div>
             </a>
@@ -329,7 +329,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="top-margin">
               <a href="pricing" target="_blank" data-ix="button-full-on-hover" class="button w-inline-block highlight">
-                <div class="button-text">Get detailed Price</div>
+                <div class="button-text">Download Pricing</div>
                 <div data-ix="button-initial-app" class="button-overlay"></div>
               </a>
             </div>
