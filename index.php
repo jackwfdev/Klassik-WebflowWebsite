@@ -704,7 +704,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div data-ix="fade-up-3" class="w-col w-col-4 w-col-stack">
               <div data-ix="show-social-team-on-hover" class="team-wrapper">
-                <div class="div-block-3"><img src="images/founder-right.jpg" srcset="images/founder-right-p-500.jpeg 500w, images/founder-right.jpg 540w" sizes="(max-width: 479px) 82vw, (max-width: 767px) 85vw, (max-width: 991px) 58vw, 27vw" class="image"></div>
+                <div class="div-block-3"><img src="images/founder-right.jpg?v=04092018" srcset="images/founder-right-p-500.jpeg?v=04092018 500w, images/founder-right.jpg?v=04092018 540w" sizes="(max-width: 479px) 82vw, (max-width: 767px) 85vw, (max-width: 991px) 58vw, 27vw" class="image"></div>
                 <div class="team-content">
                   <h4 class="heading-white">K.R Srinivas Reddy</h4>
                   <div class="top-small-title white smaller">Director</div>
