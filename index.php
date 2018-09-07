@@ -429,6 +429,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div>
         <div class="w-row">
           <img src="images/Klassik_Masterplan.png?v=1.1" data-ix="fade-right-1" srcset="images/Klassik_Masterplan-p-500.png?v=1.1 500w, images/Klassik_Masterplan-p-800.png?v=1.1 800w, images/Klassik_Masterplan.png?v=1.1 1000w" sizes="100%">
+          
+          <div class="top-margin">
+        <p style="
+    text-align:  center;
+">Phase 2 - RERA Registration number - PRM/KA/RERA/1251/446/PR/171015/000760</p>
+        </div>
+          
           <!-- <div class="w-col w-col-4">
             <div data-ix="fade-up-2" class="features-wrapper">
               <div class="features-icon icon-park"></div>
@@ -845,7 +852,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="w-col w-col-2">
           <div>
             <!-- <p class="copyright">© 2017 Noon by <a href="#" class="link">Deni Bozo</a>. Powered by <a href="#" class="link">Webflow</a></p> -->
-            <p class="copyright">Powered by <br>Seyonii Marketing Technologies Pvt. Ltd.</p>
+            <p class="copyright">Powered by <br>Seyonii Marketing Technologies Pvt. Ltd. <br>PRM/KA/RERA/1251/309/AG/180727/001045
+
+</p>
           </div>
         </div>
         <div class="w-col w-col-1">
