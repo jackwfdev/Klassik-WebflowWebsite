@@ -107,12 +107,25 @@ function isUserLoggedIn () {
 
 function triggerAuthFlowIfRequired ( event ) {
 
-	// if ( $( event.target ).closest( ".js_user_required" ).is( "form" ) )
-	// 	return;
-
 	// If the user is logged in, let the user through
 	if ( isUserLoggedIn() )
 		return;
+
+	// If the user **is not** logged in, but limited preview(s) are being allowed
+	// 		then also let the user through
+	// 			but do set/update a/the cookie for the next time round
+	var $targetElement = $( event.target ).closest( ".js_user_required" );
+	var viewThreshold = $targetElement.data( "views" ) || 0;
+	if ( timesUserHasBeenLetBefore() < viewThreshold ) {
+		// Update ( or create ) the cookie
+		var cookie = getCookieData( "omega-user-let" );
+		if ( typeof cookie.views == "number" )
+			cookie.views += 1;
+		else
+			cookie.views = 1;
+		setCookie( "omega-user-let", cookie, 90 * 24 * 60 * 60 );
+		return;
+	}
 
 	// If the user is **not** logged in, prevent the registered event handlers from executing
 	event.preventDefault();
@@ -120,7 +133,8 @@ function triggerAuthFlowIfRequired ( event ) {
 
 	// Prompt the user to "log in"
 	var loginPrompt = $( event.target ).closest( "[ data-loginner ]" ).data( "loginner" );
-	Loginner.prompts[ loginPrompt ].onTrigger( event );
+	if ( Loginner.prompts[ loginPrompt ] )
+		Loginner.prompts[ loginPrompt ].onTrigger( event );
 	$( document ).trigger( "user/login/prompt", { domLoginPromptTrigger: event.target } );
 
 }
@@ -151,6 +165,8 @@ $( document ).on( "user/login/prompt", function ( event, data ) {
 	// $( domLoginPrompt ).addClass( "show" );
 
 } );
+
+
 
 /*
  *
@@ -260,6 +276,36 @@ $( document ).on( "submit", ".loginner_form_phone", function ( event ) {
 // 	$( domLoginPrompt ).find( ".js_form_login_otp" ).removeClass( "invisible" );
 
 // } );
+
+
+/*
+ *
+ * Get a cookie
+ *
+ */
+function getCookieData ( name ) {
+	var cookieString;
+	var cookieData;
+	try {
+		cookieString = docCookies.getItem( name );
+		cookieData = JSON.parse( atob( cookieString ) );
+	}
+	catch ( e ) {}
+	return cookieData || { };
+}
+
+/*
+ *
+ * Has the user been allowed to view authorized content before?
+ *	And if so, how many times?
+ *
+ */
+function timesUserHasBeenLetBefore () {
+
+	var cookie = getCookieData( "omega-user-let" );
+	return cookie.views || 0;
+
+}
 
 
 /*
