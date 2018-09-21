@@ -30,7 +30,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
-  
+
   <meta charset="utf-8">
   <title>Klassik | Landmark | 3BHK Flats & Apartments for Sale | Sarjapur Road</title>
   <meta content="3BHKs Near Wipro. Starting At 110 Lakhs. Klassik Landmark is a 10 minute drive from the Wipro Head Office on Sarjapur Road, just 6 kms away from Ecospace on the ORR and 9 kms away from Electronic City. The proposed Hosa Road Metro Station is just a 10 minute drive." name="description">
@@ -81,6 +81,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       settings.projectBaseURL = "landmark";
         // Zoho Assignment Rule ID
       settings.assignmentRuleId = "3261944000000278029";
+        // Before Closing Head Tag
+      settings.beforeClosingHeadTag = `
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TKCJ5FN');<\/script>
+        <!-- End Google Tag Manager -->
+        <!-- Hotjar Tracking Code for http://klassikbuild.com -->
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:995458,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        <\/script>
+      `;
+        // After Opening Body Tag
+      settings.afterOpeningBodyTag = `
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKCJ5FN"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+      `;
+        // Before Closing Body Tag
+      settings.beforeClosingBodyTag = `
+        <!-- LivProp Chat -->
+        <script src="http://cwc.livserv.in/chat.js?lid=8623"><\/script>
+        <script src="http://cw1.livserv.in?did=8623&pid=1"><\/script>
+      `;
 
       __OMEGA.settings = settings;
 
@@ -429,13 +463,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div>
         <div class="w-row">
           <img src="images/Klassik_Masterplan.png?v=1.1" data-ix="fade-right-1" srcset="images/Klassik_Masterplan-p-500.png?v=1.1 500w, images/Klassik_Masterplan-p-800.png?v=1.1 800w, images/Klassik_Masterplan.png?v=1.1 1000w" sizes="100%">
-          
+
           <div class="top-margin">
         <p style="
     text-align:  center;
 ">Phase 2 - RERA Registration number - PRM/KA/RERA/1251/446/PR/171015/000760</p>
         </div>
-          
+
           <!-- <div class="w-col w-col-4">
             <div data-ix="fade-up-2" class="features-wrapper">
               <div class="features-icon icon-park"></div>
@@ -910,6 +944,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <script src="js/webflow.js<?= '?v=' . $ver ?>" type="text/javascript"></script>
   <script src="js/modules/set-cookie.js<?= '?v=' . $ver ?>" type="text/javascript"></script>
   <script src="js/modules/time-and-date.js<?= '?v=' . $ver ?>" type="text/javascript"></script>
+  <script src="js/modules/track-page-visit.js<?= '?v=' . $ver ?>" type="text/javascript"></script>
   <script src="js/modules/user.js<?= '?v=' . $ver ?>" type="text/javascript"></script>
   <script src="js/modules/window.js<?= '?v=' . $ver ?>" type="text/javascript"></script>
   <script src="js/forms.js<?= '?v=' . $ver ?>" type="text/javascript"></script>

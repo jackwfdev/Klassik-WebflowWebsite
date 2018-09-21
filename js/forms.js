@@ -43,10 +43,8 @@ Loginner.registerLoginPrompt( "Contact", {
 		$( this ).find( "input, select, button" ).prop( "disabled", false );
 	},
 	onOTPVerified: function ( context ) {
-		var projectBaseURL = __OMEGA.settings.projectBaseURL;
-		var url = location.origin.replace( /\/$/, "" ) + "/trac/" + projectBaseURL;
-		var name = "user/new/" + context.toLowerCase().replace( /[\s|]+/g, "-" );
-		openPage( url, name, { closeOnLoad: true } );
+		var url = "user/new/" + context.toLowerCase().replace( /[\s|]+/g, "-" );
+		trackPageVisit( url );
 	},
 	onLogin: function ( user ) {
 
