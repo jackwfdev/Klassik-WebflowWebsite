@@ -329,10 +329,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="w-col w-col-7">
           <div data-ix="fade-left-1">
             <div class="top-small-title">Ready to move in 3BHK apartments</div>
-            <h1 class="heading-2">A Community Designed</h1>
-            <h1 class="heading-10">for the Top Management</h1>
+            <h1 class="heading-2">Highest Buyer Rating</h1>
+            <h1 class="heading-10">4.2 of 5.0 Star Google Rating</h1>
             <div class="top-margin">
-              <p>We invested 30 years of design and execution expertise in Klassik Landmark. The goal was to build an apartment project that best served the needs of working professionals upgrading from smaller 3BHK and 2BHK flats.</p>
+              <p>
+                    <a href="https://goo.gl/qV8AF2" target="_blank" class="link" style="font-size: 1.2rem; color: #0079ff;">Read Google Reviews by Real Customers</a><br><br>
+                We invested 30 years of design and execution expertise in Klassik Landmark. The goal was to build an apartment project that best served the needs of working professionals upgrading from smaller 3BHK and 2BHK flats.</p>
             </div>
             <div class="top-margin">
               <a href="tel:+919663396887" data-ix="button-full-on-hover" class="button w-inline-block">
@@ -357,7 +359,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <h1 class="heading-3 text-highlight">Klassik Landmark</h1>
             <div class="top-small-title">Ideal work commutes<br></div>
            <h1 class="heading-9">3BHKs Near Wipro</h1>
-            <h1 class="heading-8">starting at 110 Lakhs</h1>
+            <h1 class="heading-8">starting at 80 Lakhs</h1>
             <div class="top-margin">
              <p>The perfect triangle. Klassik Landmark is a 10 minute drive from the Wipro Head Office on Sarjapur Road, just 6 kms away from Ecospace on the ORR and 9 kms away from Electronic City. The proposed Hosa Road Metro Station is just a 10 minute drive.</p>
             </div>
