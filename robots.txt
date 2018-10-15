@@ -27,4 +27,4 @@ Disallow: /contact
 Noindex: /contact
 Disallow: /values
 Noindex: /values
-Sitemap: http://klassikbuild.com/landmark/sitemap.xml
+Sitemap: https://klassikbuild.com/landmark/sitemap.xml

@@ -112,8 +112,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         // Before Closing Body Tag
       settings.beforeClosingBodyTag = `
         <!-- LivProp Chat -->
-        <script src="http://cwc.livserv.in/chat.js?lid=8623"><\/script>
-        <script src="http://cw1.livserv.in?did=8623&pid=1"><\/script>
+        <script src="https://cwc.livserv.in/chat.js?lid=8623"><\/script>
+        <script src="https://cw1.livserv.in?did=8623&pid=1"><\/script>
       `;
 
       __OMEGA.settings = settings;
@@ -969,8 +969,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </script>
 
   <!-- LivProp Chat -->
-  <script src="http://cwc.livserv.in/chat.js?lid=8623"></script>
-  <script src="http://cw1.livserv.in?did=8623&pid=1"></script>
+  <script src="https://cwc.livserv.in/chat.js?lid=8623"></script>
+  <script src="https://cw1.livserv.in?did=8623&pid=1"></script>
 
 </body>
 </html>
