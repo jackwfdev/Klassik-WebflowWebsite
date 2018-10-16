@@ -32,7 +32,9 @@ Loginner.registerLoginPrompt = function registerLoginPrompt ( name, handlers ) {
  *
  * Gets a user from the database, given an id.
  *
- * Returns a promise
+ * Returns a promise with,
+ * @params
+ * 	user -> an object containing data on the user
  *
  */
 function getUser ( identifyingAttribute, options ) {
@@ -42,7 +44,7 @@ function getUser ( identifyingAttribute, options ) {
 	}
 
 	options = options || { };
-	options.by = options.by || 'id';
+	options.by = options.by || 'uidv2';
 
 	var project = __OMEGA.settings.Project;
 	var apiEndpoint = __OMEGA.settings.apiEndpoint;
@@ -50,7 +52,15 @@ function getUser ( identifyingAttribute, options ) {
 
 	var data = { }
 	data[ options.by ] = identifyingAttribute;
-	data.project = project;
+	// If we're getting the user by UID
+		// Only send the project through if an executive is using the system
+	if ( options.by.startsWith( "uid" ) ) {
+		if ( __OMEGA.user && __OMEGA.user.role )
+			data.project = project;
+	}
+	else {
+		data.project = project;
+	}
 
 	var ajaxRequest = $.ajax( {
 		url: url,
@@ -317,6 +327,7 @@ function sendOTP ( phoneNumber ) {
 
 	var apiEndpoint = __OMEGA.settings.apiEndpoint;
 	var OTPTemplate = __OMEGA.settings.OTPTemplate;
+
 	var ajaxRequest = $.ajax( {
 		url: apiEndpoint + "/otp?phoneNumber=" + phoneNumber + "&template=" + OTPTemplate,
 		method: "GET",
@@ -456,6 +467,8 @@ $( document ).on( "submit", ".loginner_form_otp", function ( event ) {
 				} )
 			// Register a conversion
 			// registerConversion( context );
+			// Close the login prompt
+			// closeLoginPrompt( loginPrompt );
 		} )
 		.catch( function ( { code, message } ) {
 			if ( code == 1 ) {
@@ -475,6 +488,7 @@ $( document ).on( "submit", ".loginner_form_otp", function ( event ) {
 function verifyOTP ( otp ) {
 
 	var apiEndpoint = __OMEGA.settings.apiEndpoint;
+
 	var verificationFlow = $.ajax( {
 		url: apiEndpoint + "/otp",
 		method: "POST",
@@ -650,6 +664,7 @@ function loginUser ( user ) {
 	var cookieName = "omega-user";
 	var cookie = {
 		_id: user._id,
+		uid: btoa( user.uid ),
 		phoneNumber: user.phoneNumber,
 		project: user.project,
 	}
