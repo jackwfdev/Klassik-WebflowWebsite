@@ -653,8 +653,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="half-part">
       <div class="container-center">
         <div class="top-title less">
-          <div data-ix="fade-up-1" class="top-small-title white">Book a &#x27;Home Visit&#x27; with our Relationship Manager</div>
-          <h2 data-ix="fade-up-2" class="heading-white js_contact__feedback_success">Schedule a Home Visit</h2>
+          <div data-ix="fade-up-1" class="top-small-title white">View detailed floorplans and masterplan</div>
+          <h2 data-ix="fade-up-2" class="heading-white js_contact__feedback_success">Download Project Details</h2>
         </div>
         <div>
           <div class="form-block">
@@ -664,7 +664,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="column-2 w-col w-col-6"><input type="email" class="text-field w-input" maxlength="256" name="email" data-name="Email" placeholder="Enter your email" id="Email" required></div>
               </div>
               <div>
-                <div data-ix="navigation-line-on-hover" class="read-more in-form"><input type="submit" value="Book Now" data-initial="Book Now" data-progress="Sending....." class="submit-button w-button js_user_required">
+                <div data-ix="navigation-line-on-hover" class="read-more in-form"><input type="submit" value="Download Now" data-initial="Book Now" data-progress="Sending....." class="submit-button w-button js_user_required">
                   <div data-ix="navbar-line-initial" class="line-effect normal"></div>
                 </div>
               </div>
@@ -685,7 +685,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <input type="text" class="text-field w-input" maxlength="19" name="phone-number" data-name="Phone" placeholder="Enter your phone number" required>
               </div>
               <div class="w-row">
-                <div data-ix="navigation-line-on-hover" class="read-more in-form"><input type="submit" value="Send" data-wait="Please wait..." class="submit-button w-button" required>
+                <div data-ix="navigation-line-on-hover" class="read-more in-form"><input type="submit" value="Download" data-wait="Please wait..." class="submit-button w-button" required>
                   <div data-ix="navbar-line-initial" class="line-effect normal"></div>
                 </div>
               </div>
@@ -697,7 +697,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="column w-col w-col-6"><input type="text" class="text-field w-input" maxlength="9" name="otp" data-name="OTP" placeholder="Enter OTP" required></div>
               </div>
               <div class="w-row">
-                <div data-ix="navigation-line-on-hover" class="read-more in-form"><input type="submit" value="Send" data-wait="Please wait..." class="submit-button w-button">
+                <div data-ix="navigation-line-on-hover" class="read-more in-form"><input type="submit" value="Verify with OTP" data-wait="Please wait..." class="submit-button w-button">
                   <div data-ix="navbar-line-initial" class="line-effect normal"></div>
                 </div>
               </div>
