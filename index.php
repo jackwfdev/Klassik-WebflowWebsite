@@ -359,7 +359,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <h1 class="heading-3 text-highlight">Klassik Landmark</h1>
             <div class="top-small-title">Ideal work commutes<br></div>
            <h1 class="heading-9">3BHKs Near Wipro</h1>
-            <h1 class="heading-8">starting at 80 Lakhs</h1>
+            <h1 class="heading-8">starting at 89 Lakhs</h1>
             <div class="top-margin">
              <p>The perfect triangle. Klassik Landmark is a 10 minute drive from the Wipro Head Office on Sarjapur Road, just 6 kms away from Ecospace on the ORR and 9 kms away from Electronic City. The proposed Hosa Road Metro Station is just a 10 minute drive.</p>
             </div>
