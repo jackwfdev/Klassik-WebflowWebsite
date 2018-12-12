@@ -361,7 +361,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            <h1 class="heading-9">3BHKs Near Wipro</h1>
             <h1 class="heading-8">starting at 89 Lakhs</h1>
             <div class="top-margin">
-             <p>The perfect triangle. Klassik Landmark is a 10 minute drive from the Wipro Head Office on Sarjapur Road, just 6 kms away from Ecospace on the ORR and 9 kms away from Electronic City. The proposed Hosa Road Metro Station is just a 10 minute drive.</p>
+             <p>The perfect triangle. Klassik Landmark is a 10 minute drive to the Wipro Head Office on Sarjapur Road, just 6 kms to Ecospace on the ORR and 9 kms before Electronic City. The Hosa Road Metro Station is just 10 minute away.</p>
             </div>
             <div class="top-margin">
               <a href="pricing" target="_blank" data-ix="button-full-on-hover" class="button w-inline-block highlight">
@@ -392,7 +392,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div data-ix="fade-up-2" class="features-wrapper">
               <div class="features-icon icon-park"></div>
               <div class="align-center">
-                <h4 class="heading-11">9 Acres Of Open Space</h4>
+                <h4 class="heading-11">8.5 Acres Of Open Space</h4>
                <p>Klassik Landmark is spread over 11 acres. Unlike most other developments around Sarjapur Road. We have designed a vehicular free, pedestrian friendly landscaped podium.</p>
               </div>
             </div>
@@ -888,7 +888,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="w-col w-col-2">
           <div>
             <!-- <p class="copyright">© 2017 Noon by <a href="#" class="link">Deni Bozo</a>. Powered by <a href="#" class="link">Webflow</a></p> -->
-            <p class="copyright">Powered by <br>Seyonii Marketing Technologies Pvt. Ltd. <br>PRM/KA/RERA/1251/309/AG/180727/001045
+            <p class="copyright">Marketed by <br>Seyonii Marketing Technologies Pvt. Ltd. <br>PRM/KA/RERA/1251/309/AG/180727/001045
 
 </p>
           </div>
