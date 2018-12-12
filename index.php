@@ -328,12 +328,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="vertical-column-flex w-row">
         <div class="w-col w-col-7">
           <div data-ix="fade-left-1">
-            <div class="top-small-title">Ready to move in 3BHK apartments</div>
-            <h1 class="heading-2">Highest Buyer Rating</h1>
-            <h1 class="heading-10">4.2 of 5.0 Star Google Rating</h1>
+            <div class="top-small-title">Rich, Comfy and Better Engineered</div>
+            <h1 class="heading-2">The only 'all 3bhk' option in</h1>
+            <h1 class="heading-10">the sarjapur road vicinity</h1>
             <div class="top-margin">
               <p>
-                    <a href="https://goo.gl/qV8AF2" target="_blank" class="link" style="font-size: 1.2rem; color: #0079ff;">Read Google Reviews by Real Customers</a><br><br>
+                    <a href="http://www.klassikbuild.com/landmark/pricing" target="_blank" class="link" style="font-size: 1.2rem; color: #0079ff;">Real-time Availability &amp; Pricing </a><br><br>
                 We invested 30 years of design and execution expertise in Klassik Landmark. The goal was to build an apartment project that best served the needs of working professionals upgrading from smaller 3BHK and 2BHK flats.</p>
             </div>
             <div class="top-margin">
